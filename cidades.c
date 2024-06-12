@@ -35,6 +35,8 @@ Estrada *getEstrada(const char *nomeArquivo) {
 double calcularMenorVizinhanca(const char *nomeArquivo) {
     Estrada *estrada = getEstrada(nomeArquivo);
 
+    qsort(estrada->C, estrada->N, sizeof(Cidade), compararCidades);
+
     if (estrada == NULL) {
         return -1; // Retorna um valor negativo para indicar erro
     }

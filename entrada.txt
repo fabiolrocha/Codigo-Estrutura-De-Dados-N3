@@ -1,4 +1,5 @@
-10
-2
-4 PMA
+20
+3
+6 PMA
+16 Tocatins
 1 Birnin
